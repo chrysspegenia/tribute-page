@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tribute Page</title>
+    <link href="./style.css" rel="stylesheet"/>
+</head>
+<!--1. As a user, I want my tribute page to have an element with a 
+    corresponding id="main", which contains all other elements.-->
+<body id="main">
+    
+    <div id="header">
+        <img src="./images/iron-man-logo.jpg" alt="iron-man helmet" />
+        
+        <ul>
+            <li><a href="#content-container">Home</a></li>
+            <li><a href="#tribute-link">Powers</a></li>
+            <li><a href="#armor-section">Armors</a></li>
+        </ul>
+    </div>
+
+    <div id="content-container">
+
+        <!--2. As a user, I want to see an element with a corresponding 
+            id=“title”, which contains a string (i.e. text) that describes 
+            the subject of the tribute page (e.g. “Steve Jobs”).-->
+        <h1 id="title">Tony Stark</h1>
+    
+        <!--3. As a user, I want to see a div element with a 
+            corresponding id=“img-div”.-->
+        <div id="img-div">
+            
+            <!--4. As a user, I want to see a an img element with a 
+                corresponding id=“image” within the 'img-div' element-->
+
+            <!--8. As a user, I want the img element to be responsive to 
+                resizing, relative to the width of its parent element.-->
+
+            <!--9. As a user, I want the img element to be centered within 
+                its parent element.-->
+            <img id="image" src="./images/tony-stark.png" alt="Tony Stark"/>
+            
+            <!--5. As a user, I want to see an element with a corresponding 
+                id="img-caption" that contains text content describing the image 
+                show in img-div-->
+            <p id="img-caption">Tony Stark, the man underneath the armor.</p>
+        
+        </div>
+
+        <!--6. As a user, I want to see an element with a corresponding id="tribute-info" 
+            which contains text content describing the subject of the tribute page.-->
+        <p id="tribute-info">Anthony Edward "Tony" Stark was a billionaire industrialist, a founding member of the Avengers, and the former CEO of Stark Industries. A 
+            brash but brilliant inventor, Stark was self-described as a genius, billionaire, playboy, and philanthropist. With his great wealth and 
+            exceptional technical knowledge, Stark was one of the world's most powerful men following the deaths of his parents and enjoyed the playboy 
+            lifestyle for many years until he was kidnapped by the Ten Rings in Afghanistan, while demonstrating a fleet of Jericho missiles. With his 
+            life on the line, Stark created an armored suit which he used to escape his captors. Upon returning home, he utilized several more armors to 
+            use against terrorists, as well as Obadiah Stane who turned against Stark. Following his fight against Stane, Stark publicly revealed himself 
+            as Iron Man.
+        </p>
+    
+        <!--7. As a user, I want to see an element with a corresponding id=“tribute- link”, 
+            which links to an outside site that contains additional information about the 
+            subject of the tribute page.-->
+        <a id="tribute-link" href="https://marvelcinematicuniverse.fandom.com/wiki/Iron_Man#Early_Life" target="_blank">Click Here to Know More About Tony</a>
+        
+        <!--10. As a user, I want to read a post, article, or story about the person 
+            with at least 2 headings in h1 ... h6, and paragraphs in p.-->
+        <h2 id="powers">
+            Powers and Abilities
+        </h2>
+
+        <div id="powers-content">
+            <p>
+                Suiting up the Iron Armor: The armor used to require several machines to put on the suit, in a lengthy process. Later, this was changed 
+                to having it in a suitcase, which shortened the suiting up time, but was not very effective on the battlefield. However, recently, it has 
+                been shown that Stark can hold the armor within himself, and use it when needed, and spring into action in mere seconds.
+            </p>
+
+            <ul>
+                <li><strong>Superhuman Strength</strong>: He was capable of lifting up to over 100 tons when he wore his armor.</li>
+                <li><strong>Superhuman Speed</strong>: Even when not traveling for extended distances, the armor enabled the wearer to move and react at high speeds.</li>
+                <li><strong>Flight</strong>: The armor could typically reach speeds in excess of Mach 8, however, later Iron Man armor was able to reach orbital velocities 
+                    (5 miles per second) and up to speeds that could outrun black holes. Use of the jet boots provided enough power to lift a load of about 500 tons.</li>
+            </ul>
+        </div>
+
+        <h2 id="personality">
+            Personality
+        </h2>
+
+        <p id="personality-content">
+            Tony Stark was an intelligent, arrogant, outspoken and outgoing man who possessed a strong wit. He enjoyed drinking, partying and gambling 
+            and this reckless and addictive behavior helped lead to his continuous struggle with alcoholism. Many considered him to be both egotistical 
+            and selfish and even Stark himself agreed that he was narcissistic. He also liked being in control of his own life and he occasionally 
+            displayed traits of germophobia.
+        </p>
+        
+    </div>
+
+    <div id="armor-section">
+        <h2>Iron Man Armors</h2>
+
+        <ul id="armors">
+            <li>
+                <h3>Mark I</h3>
+                <img src="./images/mark1.png" alt="mark 1 armor">
+            </li>
+            <li>
+                <h3>Mark II</h3>
+                <img src="./images/mark2.png" alt="mark 2 armor">
+            </li>
+            <li>
+                <h3>Mark XXVIII</h3>
+                <img src="./images/mark20.png" alt="mark 20 armor">
+            </li>
+            <li>
+                <h3>Mark XXVI</h3>
+                <img src="./images/mark26.png" alt="mark 26 armor">
+            </li>
+            <li>
+                <h3>Mark XLIV</h3>
+                <img src="./images/mark44.png" alt="mark 44 armor">
+            </li>
+            <li>
+                <h3>Mark LXXXV</h3>
+                <img src="./images/mark85.png" alt="mark 85 armor">
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
